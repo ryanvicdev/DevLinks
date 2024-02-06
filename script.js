@@ -8,10 +8,8 @@ function toggleMode() {
         //Substituir a imagem
     if(html.classList.contains('light')) {
     img.setAttribute('src', '/assets/avatar-light.png')
-    alt.setAttribute('alt','Foto do Ryan com fundo roxo')
     } else {
     img.setAttribute('src', '/assets/avatar.png')
-    alt.setAttribute('alt','Foto do Ryan com fundo branco')
 
     }
     
